@@ -16,8 +16,9 @@ redirect_from:
 
 
 
+## ARS is moving to individual licenses for Geneious and the floating license server will be decommisioned after those licenses are live.  If you havent purchased an individual license you will lose access to Geneious. 
 
-Ceres no longer has Geneious Server. The developer has discontinued that product.
+## All of the following instructions are for the current floating license and will not work after the purchase is complete.
 
 Ceres does provide floating licenses for Geneious Prime which is the desktop client.  
 
@@ -39,7 +40,7 @@ Geneious will complain about not having a license. Click "Activate a License"
 On the "Enter Your License Details" screen,
   - select "Use floating license server",
   - enter `geneious.scinet.usda.gov` in the "License Server" box, and
-  - enter `27001` in the "Port" box.
+  - enter `27001` in the "Port" box.  If this doesnt work please try `49630`
 
 ![screenshot of Geneious software Enter Your License Details screen]({{ images_path }}/geneious/geneious_floating_license_server.png)
 
